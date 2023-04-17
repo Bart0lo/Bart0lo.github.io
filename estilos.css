@@ -1,0 +1,73 @@
+/* Estilo para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Estilo para el header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Estilo para el título del header */
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Estilo para el menú de navegación del header */
+header nav {
+  display: inline-block;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav li:last-child {
+  margin-right: 0;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Estilo para el contenido principal */
+main {
+  padding: 20px;
+}
+
+/* Estilo para los títulos del contenido principal */
+main h2 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+/* Estilo para los párrafos del contenido principal */
+main p {
+  margin-bottom: 20px;
+}
+
+/* Estilo para el footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
